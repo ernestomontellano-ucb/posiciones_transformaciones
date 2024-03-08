@@ -12,7 +12,6 @@ body{
 }
 .contenedor{
     width: 80%;
-    
     margin:  auto;
     display: grid;
     grid-template-columns: 1;
@@ -52,6 +51,10 @@ header h1{
     border-radius: 7px;
     padding: 20px;
 }
+.subgrid .col:nth-child(3), .subgrid .col:nth-child(2){
+    position: relative;
+}
+
 .col h3{
     font-weight: 800;
     margin-bottom: 1em;
@@ -69,5 +72,27 @@ header h1{
     aspect-ratio: 1;
     clip-path: polygon(97.15% 66.64%,60.78% 65.65%,48.74% 99.98%,38.45% 65.09%,2.07% 64.25%,32.08% 43.68%,21.64% 8.82%,50.48% 31.01%,80.4% 10.3%,68.21% 44.58%);
     background: #BF2626;
-    transform:
+    position:absolute;
+    top:-47px;
+    right: -47px;
+    
+}
+.circ{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top:-10px;
+}
+.rojo{
+    background: red;
+    left:60px;
+}
+.amarillo{
+    background: yellow;
+    left:100px;
+}
+.verde{
+    background: green;
+    left:140px;
 }
