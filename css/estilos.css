@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F2DDD5;
+    height: 100%;
+    font-family: "Karla", sans-serif;
+}
+.contenedor{
+    width: 80%;
+    
+    margin:  auto;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 100px 1fr 100px;
+    gap: 10px;
+    padding: 10px 0;
+
+}
+
+.contenedor header, .contenedor main, .contenedor footer{
+    background: #A62934;
+    border-radius:10px; 
+}
+header{
+    height: auto;
+    padding:20px;
+}
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 800;
+    color: #fff;
+}
+.contenedor main{
+ background: #731414;
+}
+.contenedor main .subgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    padding: 20px;  
+    gap: 20px;
+}
+.subgrid .col{
+    background: #F2DDD5;
+    border-radius: 7px;
+    padding: 20px;
+}
+.col h3{
+    font-weight: 800;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+.col p{
+    margin-bottom: 1em;
+}
+.contenedor footer{
+    background: #D98484;
+}
+.star{
+    width: 95px;
+    margin: auto;
+    aspect-ratio: 1;
+    clip-path: polygon(97.15% 66.64%,60.78% 65.65%,48.74% 99.98%,38.45% 65.09%,2.07% 64.25%,32.08% 43.68%,21.64% 8.82%,50.48% 31.01%,80.4% 10.3%,68.21% 44.58%);
+    background: #BF2626;
+}
