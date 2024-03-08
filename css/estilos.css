@@ -92,6 +92,12 @@ header h1{
     background: yellow;
     left:100px;
     z-index: 101;
+    transform: rotate(0deg) scale(1,1) ;
+    transition: all 600ms;
+}
+.amarillo:hover{
+    background: orangered;
+    transform: translate(50px,50px) rotate(180deg) scale(1,2) skew(180deg);
 }
 .verde{
     background: green;
